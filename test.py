@@ -32,6 +32,7 @@ y_test = df['income']
 
 # Predict
 logit_predictions = logit_model.predict(X_test)
+print ("Done with the testing")
 
 # Compute test accuracy
 test_logit = accuracy_score(y_test,logit_predictions)
